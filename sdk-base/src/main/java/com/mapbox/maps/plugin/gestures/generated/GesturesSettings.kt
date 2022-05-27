@@ -42,7 +42,7 @@ data class GesturesSettings @JvmOverloads constructor(
   /**
    * Whether double tapping the map with one touch results in a zoom-in animation.
    */
-  var doubleTapToZoomInEnabled: Boolean = true,
+  var doubleTapToZoomInEnabled: Boolean = false,
 
   /**
    * Whether single tapping the map with two touches results in a zoom-out animation.
